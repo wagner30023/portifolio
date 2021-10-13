@@ -10,12 +10,12 @@ $(document).ready(function(){
 
     
         if($(window).scrollTop() > 0){
-
             $('.top').show();
         } else {
             $('.top').hide();
         }
-        $('#menu').hide();    
+        $('#menu').hide();
+        $('.top').show();    
     // });
 
     // smooth scrolling 
